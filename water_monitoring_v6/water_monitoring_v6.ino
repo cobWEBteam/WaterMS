@@ -18,11 +18,11 @@
 #include <NTPClient.h> 
 #include <WiFiUdp.h> 
 
-#define WIFI_SSID "YOUARESHATE"
-#define WIFI_PASSWORD "randompass23"
+#define WIFI_SSID "your_ssid"
+#define WIFI_PASSWORD "your_password"
 
-#define API_KEY "AIzaSyAPk6sIYpsnmXYfHq41DsQjuM8Vooa7UYo"
-#define FIREBASE_PROJECT_ID "waterms-dea9e"
+#define API_KEY "firebase_api_key"
+#define FIREBASE_PROJECT_ID "project_id"
 
 #define FLOW_SENSOR_PIN D3
 #define ONE_WIRE_BUS D8
@@ -41,10 +41,8 @@ volatile int flow_frequency;
 float vol = 0.0, l_minute;
 unsigned long dataMillis = 0;
 
-//bool signupOK = false;
-
-#define USER_EMAIL "admin@gmail.com"
-#define USER_PASSWORD "091601"
+#define USER_EMAIL "userEmail@gmail.com"
+#define USER_PASSWORD "setPassword"
 
 // Variable to save USER UID
 String uid;
